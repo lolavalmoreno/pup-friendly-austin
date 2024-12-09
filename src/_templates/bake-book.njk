@@ -1,0 +1,18 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}{{ title }}{% endblock %}
+{% block page_description %}{{ title }} by {{ author }}{% endblock %}
+
+{% block content %}
+<article class="container my-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="img/{{ slug }}.jpg" alt="{{ title }}" class="img-fluid mb-4">
+    </div>
+    <div class="col-sm-8">
+      <h1>{{ title }}</h1>
+      <p>{{ blurb | safe }}</p>
+    </div>
+  </div>
+</article>
+{% endblock %}

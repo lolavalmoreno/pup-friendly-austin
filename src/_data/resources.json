@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Austin Vet Cares",
+    "type": "veterinary clinic",
+    "address": "1234 Paw St, Austin, TX 78704",
+    "services": ["Check-ups", "Vaccinations", "Emergency Care"],
+    "website": "https://austinvetcares.com"
+  },
+  {
+    "name": "Laura's Doggie Doo's",
+    "type": "groomer",
+    "address": "617 W Slaughter Ln #105, Austin, TX 78748",
+    "services": ["Grooming", "Nail Trims", "Fur Styling"],
+    "website": "https://www.laurasdoggiedoos.com"
+  },
+  {
+    "name": "Sit Means Sit South Austin",
+    "type": "dog trainer",
+    "address": "8708 S Congress Ave A190, Austin, TX 78745",
+    "services": ["Basic Obedience", "Behavioral Training", "Puppy Classes"],
+    "website": "https://sitmeanssitaustin.com/?utm_source=google&utm_medium=gmb&utm_campaign=google_listing_south_austin"
+  }
+]

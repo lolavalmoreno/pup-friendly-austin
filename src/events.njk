@@ -1,0 +1,27 @@
+{% extends "_templates/base.njk" %}
+
+{% block page_title %}Dog-Friendly Events{% endblock %}
+{% block page_description %}See what’s happening in Austin for you and your pup{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <h1>Upcoming Dog-Friendly Events</h1>
+  <p>Don’t miss out on these fun gatherings for pups and their humans.</p>
+
+  {% if events %}
+    <ul class="list-group">
+      {% for event in events %}
+        <li class="list-group-item">
+          <h3>{{ event.title }}</h3>
+          <p><strong>Date:</strong> {{ event.date }}</p>
+          <p><strong>Time:</strong> {{ event.time }}</p>
+          <p><strong>Location:</strong> {{ event.location }}</p>
+          <p>{{ event.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No upcoming events. Check back later or add them to <code>events.json</code>.</p>
+  {% endif %}
+</div>
+{% endblock %}

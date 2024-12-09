@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Zilker Park",
+    "type": "park",
+    "address": "2100 Barton Springs Rd, Austin, TX 78746",
+    "hours": "5 AM - 10 PM",
+    "amenities": ["Water fountains", "Off-leash area", "Shaded seating"],
+    "features": "Scenic views of downtown Austin, large grassy fields",
+    "image": "zilker_park.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 5,
+      "accessibility": 4
+    },
+    "map_link": "https://www.google.com/maps?sca_esv=face10566ce46e9f&output=search&q=zilker+park&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J3ppPdoHI1O-XvbXbpNjYYz87mR_lwVCO3LKkTYCY9pn45BfcjS677kRO6L6d-ejRRwZ58FQLY1YDaELFEgsVyXIZa8gsAD-p4qHT4Ry-AFTg-BnLUmOcQZ3XnwrnIl7oqGHPfozVovwXfFFkzM42dpYUFKpaeYkgqY5WgR5sN_msqW_2A&entry=mc&ved=1t:200715&ictx=111"
+  },
+  {
+    "name": "Yard Bar",
+    "type": "bar",
+    "address": "6700 Burnet Rd, Austin, TX 78757",
+    "hours": "11 AM - 10 PM",
+    "amenities": ["Dog play area", "Dog treats", "Shaded patio"],
+    "features": "Full bar, dog agility equipment, staff dog monitors",
+    "image": "yard_bar.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 5,
+      "accessibility": 3
+    },
+    "map_link": "https://www.google.com/maps/place/Yard+Bar/@30.3430544,-97.7391559,15z/data=!4m2!3m1!1s0x0:0xb22be2fbd95a608d?sa=X&ved=1t:2428&ictx=111"
+  },
+  {
+    "name": "Auditorium Shores at Town Lake",
+    "type": "park",
+    "address": "900 W Riverside Dr, Austin, TX 78704",
+    "hours": "5 AM - 10 PM",
+    "amenities": ["Off-leash area", "Water access", "Walking trails"],
+    "features": "Large off-leash area next to Lady Bird Lake, city skyline view",
+    "image": "auditorium_shores.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 5,
+      "accessibility": 4
+    },
+    "map_link": "https://www.google.com/maps?sca_esv=face10566ce46e9f&biw=1536&bih=730&output=search&q=Auditorium+Shores+at+Town+Lake&source=lnms&fbs=AEQNm0C31lgLkp-u0PYt18w4IYkiBtGm7HPXslVbGPVd5lHvCRx7cPWJJkuFxKa5U0ZvW6RgIZOCCCfeFQDI-tG5ebZJ_FzSft7S1OrP2d9d_UK4aj9PHm0t9p4K2kefzrXC3wuxLNDfDX6-zAEmvVsqgrox_BAMdeNhTuqtNE5P1MbuZZx_Zepqh0OjBzwv1T04Q_kaIoHd7sn3NBBJBj0BSlWCsgtiyg&entry=mc&ved=1t:200715&ictx=111"
+  },
+  {
+    "name": "Banger's Sausage House & Beer Garden",
+    "type": "restaurant",
+    "address": "79 Rainey St, Austin, TX 78701",
+    "hours": "11 AM - 11 PM",
+    "amenities": [
+      "Dog-friendly patio",
+      "Water bowls",
+      "Live music on weekends"
+    ],
+    "features": "Huge beer selection, wide variety of sausages, friendly patio vibes",
+    "image": "bangers.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 4,
+      "accessibility": 3
+    },
+    "map_link": "https://www.google.com/maps?sca_esv=face10566ce46e9f&biw=1536&bih=730&output=search&q=banger%27s+sausage+house+%26+beer+garden&source=lnms&fbs=AEQNm0CI3085mQvq38n2Ub64z3TRfpRK3g8q4O-xBtJsSic-cIV0T0xPWbSDKEp9B2zrGNXo4zA3QTWRU6LtP4bXjBjTbYRw0JRrqIojYAvqj6_QOjCvuLhPZZob1rkhbP_nAoaicRxJpmqpSBNBLe4hJne9AgR4ZZFBeFKWfGRRB7nZ-1J5P8euwo4UyH3q1EsYesT4kKx7ssIMXm4HTdEWH9-5fvI0ng&entry=mc&ved=1t:200715&ictx=111"
+  },
+  {
+    "name": "Hops & Grain Brewing",
+    "type": "brewery",
+    "address": "507 Calles St #101, Austin, TX 78702",
+    "hours": "10 AM - 10 PM",
+    "amenities": ["Indoor seating", "Dog treats", "Water bowls"],
+    "features": "Craft brewery with plenty of space, rotating food trucks, friendly staff",
+    "image": "hops_grain.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 5,
+      "accessibility": 4
+    },
+    "map_link": "https://www.google.com/maps?sca_esv=face10566ce46e9f&biw=1536&bih=730&output=search&q=hops+%26+grain+brewing&source=lnms&fbs=AEQNm0BRbrA8b3J1Cq1UM3gcLH4CZfo0DJmjE1astM2EagB2GIIpdZb0I6xzAG2mqqevur_dwf_HO07EzikwlQLVyvmPbjaarar88XTcJ_8DqQUWAlw0x1L55ksc6VXiZiTQlR7qPGR5sR-JsGqRay48oRWNCTUGlNS0RlKdStH5cLMMdoYw5RxeZtuE5BP3TUDcBYKT63UeEF09cwFttEejhRXemD5uGw&entry=mc&ved=1t:200715&ictx=111"
+  },
+  {
+    "name": "Walnut Creek Metropolitan Park",
+    "type": "park",
+    "address": "12138 N Lamar Blvd, Austin, TX 78753",
+    "hours": "5 AM - 10 PM",
+    "amenities": ["Miles of trails", "Creek access", "Picnic tables"],
+    "features": "Expansive trail system for hiking with your dog, natural creek for cooling off",
+    "image": "walnut_creek.jpg",
+    "rating": {
+      "cleanliness": 4,
+      "dog_friendliness": 5,
+      "accessibility": 3
+    },
+    "map_link": "https://www.google.com/maps/place/Walnut+Creek+Metropolitan+Park/@30.4008039,-97.6889969,17z/data=!3m1!4b1!4m6!3m5!1s0x8644ceb17a6314e5:0xd0093862c3e4a1d2!8m2!3d30.4008039!4d-97.686422!16s%2Fg%2F11dxq_34zr?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+  }
+]

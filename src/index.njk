@@ -1,0 +1,48 @@
+{% extends "_templates/base.njk" %}
+
+{% block page_title %}Pup-Friendly Austin - Home{% endblock %}
+{% block page_description %}Discover Austin’s top dog-friendly parks, cafes, and breweries{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <h1><i class="fas fa-paw"></i> Welcome to Pup-Friendly Austin</h1>
+  <p>
+    Looking for the best places in Austin to enjoy a day out with your pup?
+    We’ve got you covered! Explore scenic parks, dog-friendly patios, and breweries
+    offering water bowls and treats. Plan the perfect outing with your furry companion today.
+  </p>
+
+  <div class="pup-highlight">
+    <h2><i class="fas fa-bone"></i> Explore Our Featured Locations</h2>
+    <p>Check out three of our top spots below!</p>
+  </div>
+
+  {% if locations %}
+    <div class="row gy-4">
+      {% for location in locations %}
+        {% if loop.index <= 3 %}
+          <div class="col-sm-6 col-md-4">
+            <div class="card h-100">
+              {% if location.image %}
+                <img src="img/{{ location.image }}" class="card-img-top" alt="{{ location.name }}">
+              {% else %}
+                <img src="img/placeholder.jpg" class="card-img-top" alt="Dog-friendly location">
+              {% endif %}
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="locations/{{ location.name | replace(' ','-') | lower }}.html">{{ location.name }}</a>
+                </h3>
+                <p class="card-text"><strong>Type:</strong> {{ location.type | capitalize }}</p>
+                <p class="card-text">{{ location.features }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No location data available. Ensure <code>locations.json</code> is properly set up and loaded.</p>
+  {% endif %}
+
+</div>
+{% endblock %}

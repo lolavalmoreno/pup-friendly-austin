@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Yappy Hour at The Dog Bar",
+    "date": "2024-12-15",
+    "time": "5 PM - 7 PM",
+    "location": "123 Pup Ave, Austin, TX",
+    "description": "Enjoy drinks and treats with fellow dog lovers. Free entry!"
+  },
+  {
+    "title": "Adoption Day at Austin Pets Alive!",
+    "date": "2024-12-20",
+    "time": "10 AM - 2 PM",
+    "location": "2000 Animal Ln, Austin, TX",
+    "description": "Meet adoptable dogs and give them a forever home!"
+  },
+  {
+    "title": "Holiday Pup Parade",
+    "date": "2024-12-24",
+    "time": "3 PM - 5 PM",
+    "location": "Central Park, Austin, TX",
+    "description": "Dress up your pup in festive attire for a fun parade. Prizes for best costume!"
+  }
+]

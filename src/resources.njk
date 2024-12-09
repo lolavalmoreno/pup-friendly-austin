@@ -1,0 +1,31 @@
+{% extends "_templates/base.njk" %}
+
+{% block page_title %}Dog-Friendly Resources{% endblock %}
+{% block page_description %}Find Austin’s best vets, groomers, and dog trainers{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <h1>Resources for You and Your Pup</h1>
+  <p>Need a vet, groomer, or trainer? Check out some of these local services.</p>
+
+  {% if resources %}
+    <div class="row gy-4">
+      {% for resource in resources %}
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">{{ resource.name }}</h3>
+              <p class="card-text"><strong>Type:</strong> {{ resource.type | capitalize }}</p>
+              <p class="card-text"><strong>Address:</strong> {{ resource.address }}</p>
+              <p class="card-text"><strong>Services:</strong> {{ resource.services | join(', ') }}</p>
+              <a href="{{ resource.website }}" target="_blank" class="btn btn-primary">Visit Website</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No resource data available. Add resources to <code>resources.json</code>.</p>
+  {% endif %}
+</div>
+{% endblock %}
